@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'rest_framework',
+    'gateway'
 ]
 
 MIDDLEWARE = [
@@ -69,6 +72,8 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'product.wsgi.application'
 
+# Add CORS settings if necessary
+CORS_ORIGIN_ALLOW_ALL = True
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
