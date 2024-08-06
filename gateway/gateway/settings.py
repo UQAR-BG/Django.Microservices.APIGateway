@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'rest_framework',
-    'gateway'
+    'gateway_app.apps.GatewayAppConfig'
 ]
 
 MIDDLEWARE = [
